@@ -11,8 +11,12 @@ latex
 ./tex/latex:
 datetime
 fmtcount
+ifmtarg
 lineno
+tablefootnote
+titlesec
 wrapfig
+xifthen
 
 ./tex/latex/datetime:
 datetime-defaults.sty
@@ -98,8 +102,28 @@ fmtcount.ins
 fmtcount.log
 fmtcount.sty
 
+./tex/latex/ifmtarg:
+ifmtarg.ins
+ifmtarg.log
+ifmtarg.sty
+ifmtarg.tex
+
 ./tex/latex/lineno:
 lineno.sty
 
+./tex/latex/tablefootnote:
+tablefootnote.drv
+tablefootnote.dtx
+tablefootnote-example.tex
+tablefootnote.ins
+tablefootnote.log
+tablefootnote.sty
+
+./tex/latex/titlesec:
+titlesec.sty
+
 ./tex/latex/wrapfig:
 wrapfig.sty
+
+./tex/latex/xifthen:
+xifthen.sty
