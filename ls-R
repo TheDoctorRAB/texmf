@@ -12,6 +12,7 @@ latex
 datetime
 fmtcount
 lineno
+wrapfig
 
 ./tex/latex/datetime:
 datetime-defaults.sty
@@ -99,3 +100,6 @@ fmtcount.sty
 
 ./tex/latex/lineno:
 lineno.sty
+
+./tex/latex/wrapfig:
+wrapfig.sty
