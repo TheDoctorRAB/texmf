@@ -10,6 +10,7 @@ bst
 
 ./bibtex/bst:
 IEEEtran.bst
+ieeetr.bst
 
 
 ./tex:
