@@ -465,7 +465,7 @@ FUNCTION {empty.misc.check}
 
 FUNCTION {format.tr.number}
 { type empty$
-    { "Tech. Rep. " }
+    { "Tech. Rep." }
     'type
   if$
   number empty$
@@ -841,7 +841,7 @@ FUNCTION {techreport}
   format.authors "author" output.check
   format.title "title" output.check
   blank.sep
-%  format.tr.number output.nonnull
+  format.tr.number output.nonnull
   institution "institution" output.check
   address output
   format.date "year" output.check
