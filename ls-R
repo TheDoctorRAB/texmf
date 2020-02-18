@@ -19,6 +19,7 @@ latex
 
 ./tex/latex:
 bigfoot
+bold-extra
 changepage
 datetime
 fmtcount
@@ -46,6 +47,9 @@ perpage.sty
 suffix.drv
 suffix.dtx
 suffix.sty
+
+./tex/latex/bold-extra:
+bold-extra.sty
 
 ./tex/latex/changepage:
 changepage.ins
