@@ -12,6 +12,7 @@ bst
 IEEEtran.bst
 ieeetr.bak
 ieeetr.bst
+standard.bst
 
 
 ./tex:
