@@ -23,6 +23,7 @@ bigfoot
 bold-extra
 changepage
 datetime
+etaremune
 fmtcount
 gmdoc
 ifmtarg
@@ -117,6 +118,9 @@ dt-ukraineb.def
 dt-USenglish.def
 dt-usorbian.def
 dt-welsh.def
+
+./tex/latex/etaremune:
+etaremune.sty
 
 ./tex/latex/fmtcount:
 fc-american.def
