@@ -29,6 +29,7 @@ fmtcount
 gmdoc
 ifmtarg
 lineno
+makecell
 ncctools
 tablefootnote
 tabto
@@ -165,6 +166,9 @@ ifmtarg.tex
 
 ./tex/latex/lineno:
 lineno.sty
+
+./tex/latex/makecell:
+makecell.sty
 
 ./tex/latex/ncctools:
 afterpackage.dtx
