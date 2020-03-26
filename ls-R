@@ -21,6 +21,7 @@ latex
 ./tex/latex:
 bigfoot
 bold-extra
+boldline
 changepage
 datetime
 etaremune
@@ -52,6 +53,9 @@ suffix.sty
 
 ./tex/latex/bold-extra:
 bold-extra.sty
+
+./tex/latex/boldline:
+boldline.sty
 
 ./tex/latex/changepage:
 changepage.ins
