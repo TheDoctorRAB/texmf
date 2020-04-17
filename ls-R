@@ -26,6 +26,7 @@ changepage
 datetime
 etaremune
 fmtcount
+footnotehyper
 gmdoc
 ifmtarg
 lineno
@@ -151,6 +152,13 @@ fmtcount.dtx
 fmtcount.ins
 fmtcount.log
 fmtcount.sty
+
+./tex/latex/footnotehyper:
+footnotehyper.dtx
+footnotehyper.log
+footnotehyper.sty
+footnotehyper.tex
+README.md
 
 ./tex/latex/gmdoc:
 gmdoc.sty
