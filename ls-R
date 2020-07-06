@@ -19,6 +19,7 @@ standard.bst
 latex
 
 ./tex/latex:
+arydshin
 bigfoot
 bold-extra
 boldline
@@ -40,6 +41,13 @@ titlesec
 tocloft
 wrapfig
 xifthen
+
+./tex/latex/arydshin:
+arydshln.dtx
+arydshln.ins
+arydshln.log
+arydshln-man.tex
+arydshln.sty
 
 ./tex/latex/bigfoot:
 bigfoot.drv
