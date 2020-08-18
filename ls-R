@@ -11,7 +11,6 @@ bst
 ./bibtex/bst:
 abbrvnat.bst
 IEEEtran.bst
-ieeetr.bak
 ieeetr.bst
 plainnat.bst
 standard.bst
@@ -34,6 +33,7 @@ footnotehyper
 gmdoc
 ifmtarg
 lineno
+makebst
 makecell
 ncctools
 physics
@@ -186,6 +186,15 @@ ifmtarg.tex
 
 ./tex/latex/lineno:
 lineno.sty
+
+./tex/latex/makebst:
+english.mbs
+makebst.drv
+makebst.dtx
+makebst.ins
+makebst.log
+makebst.tex
+merlin.mbs
 
 ./tex/latex/makecell:
 makecell.sty
