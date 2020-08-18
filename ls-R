@@ -9,10 +9,13 @@ tex
 bst
 
 ./bibtex/bst:
+abbrvnat.bst
 IEEEtran.bst
 ieeetr.bak
 ieeetr.bst
+plainnat.bst
 standard.bst
+unsrtnat.bst
 
 
 ./tex:
