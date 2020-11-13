@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=latex 2020.4.22)  18 AUG 2020 11:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=latex 2020.4.22)  13 NOV 2020 11:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -19,39 +19,25 @@ It makes up a docstrip batch job to produce
 a customized .bst file for running with BibTeX
 Do you want a description of the usage? (NO)
 
-\yn=no
-In the interactive dialogue that follows,
-you will be presented with a series of menus.
-In each case, one answer is the default, marked as (*),
-and a mere carriage-return is sufficient to select it.
-(If there is no * choice, then the default is the last choice.)
-For the other choices, a letter is indicated
-in brackets for selecting that option. If you select
-a letter not in the list, default is taken.
-
-The final output is a file containing a batch job
-which may be (La)TeXed to produce the desired BibTeX
-bibliography style file. The batch job may be edited
-to make minor changes, rather than running this program
-once again.
+\yn=n
 
 Enter the name of the MASTER file (default=merlin.mbs)
 
-\mfile=merlin.mbs
+\mfile=
 
 Name of the final OUTPUT .bst file? (default extension=bst)
 
-\ofile=neup
+\ofile=nsf
 
 Give a comment line to include in the style file.
 Something like for which journals it is applicable.
 
-\ans=For use in preproposals.
-\openout3 = `neup.dbj'.
+\ans=NSF style bibliography
+\openout3 = `nsf.dbj'.
 
 Do you want verbose comments? (NO)
 
-\yn=yes
+\yn=y
 (/home/TheDoctorRAB/texmf/tex/latex/makebst/merlin.mbs
 <<< For more information about the meanings of
 <<< the various options, see the section on 
@@ -67,9 +53,13 @@ Name of language file: \cfile=.
 
 Include file(s) for extra journal names? (NO)
 
-\yn=
+\yn=y
 
-No included files.
+File to include (default=physjour,geojour,photjour.mbs)
+
+\jfile=
+
+Name of included files: \jfile=physjour,geojour,photjour,.mbs.
 
 <<INTERNAL LANGUAGE SUPPORT (if no external language file)
 (*) English words used explicitly
@@ -122,8 +112,8 @@ No included files.
 (a) Annotations in annote field or in .tex file of citekey name
   Select:
 
-\ans=
-  You have selected: No annotations
+\ans=a
+  You have selected: Annotations
 
 >>ANNOTATIONS:
 
@@ -135,8 +125,8 @@ No included files.
 (c) Presentaion, speaker in small caps 
   Select:
 
-\ans=
-  You have selected: Do not add presentation type
+\ans=p
+  You have selected: Add presentation, speaker not highlighted
 
 >>PRESENTATIONS:
 
@@ -194,8 +184,8 @@ No included files.
 (m) Junior between as Smith, Jr., John
   Select:
 
-\ans=
-  You have selected: Junior comes last
+\ans=m
+  You have selected: Junior between
 
 >>POSITION OF JUNIOR (if author names reversed)
 
@@ -229,55 +219,20 @@ No included files.
 (l) Limited authors (et al replaces missing names)
   Select:
 
-\ans=l
-  You have selected: Limited authors
+\ans=
+  You have selected: All authors
 
 >>NUMBER OF AUTHORS IN BIBLIOGRAPHY:
-Maximum number of authors (1-99)
-
-\num=1
-  You have selected maximum 1 authors
-Minimum number (before et al given) (1-1)
-
-\num=1
-  You have selected minimum 1 authors
 
 <<AUTHORS IN CITATIONS:
 (*) One author et al for three or more authors
 (m) Some other truncation scheme 
   Select:
 
-\ans=m
-  You have selected: Some other truncation scheme
+\ans=
+  You have selected: One author et al
 
 >>AUTHORS IN CITATIONS:
-
-<<MAX AUTHORS BEFORE ET AL: (if regular cite not selected)
-(*) One et al 
-(2) One, Two et al 
-(3) One, Two, Three et al 
-(4) One, Two, Three, Four et al 
-(5) One, Two, Three, Four, Five et al 
-(6) One, Two, Three, Four, Five, Six et al 
-  Select:
-
-\ans=
-  You have selected: One et al
-
->>MAX AUTHORS BEFORE ET AL: (if regular cite not selected)
-
-<<MAX AUTHORS WITHOUT ET AL: (if regular cite not selected)
-(*) Two authors without truncating 
-(3) Three authors without truncating
-(4) Four authors without truncating
-(5) Five authors without truncating
-(6) Six authors without truncating
-  Select:
-
-\ans=
-  You have selected: Two authors without truncating
-
->>MAX AUTHORS WITHOUT ET AL: (if regular cite not selected)
 
 <<TYPEFACE FOR AUTHORS IN LIST OF REFERENCES:
 (*) Normal font for author names 
@@ -332,8 +287,8 @@ Minimum number (before et al given) (1-1)
 (r) Date as year month 
   Select:
 
-\ans=
-  You have selected: Date as month year
+\ans=r
+  You have selected: Date as year month
 
 >>REVERSED DATE (if including month)
 
@@ -347,8 +302,8 @@ Minimum number (before et al given) (1-1)
 (x) No punct. after date 
   Select:
 
-\ans=p
-  You have selected: Period after date
+\ans=
+  You have selected: Date with standard block punctuation
 
 <<BLANK AFTER DATE:
 (*) Space after date and punctuation
@@ -434,8 +389,8 @@ Minimum number (before et al given) (1-1)
 (x) No thesis title 
   Select:
 
-\ans=a
-  You have selected: Thesis title like article
+\ans=
+  You have selected: Thesis titles like books
 
 >>THESIS TITLE:
 
@@ -652,8 +607,8 @@ ies
 (a) Address: Publisher as New York: Harcourt
   Select:
 
-\ans=a
-  You have selected: Address: Publisher
+\ans=
+  You have selected: Publisher, address
 
 >>PUBLISHER ADDRESS:
 
@@ -677,8 +632,8 @@ ies
 (e) Publisher after edition 
   Select:
 
-\ans=p
-  You have selected: Publisher before chapter, pages
+\ans=
+  You have selected: Publisher after chapter, pages
 
 >>PUBLISHER POSITION:
 
@@ -812,8 +767,8 @@ ies
 (x) `Page' omitted 
   Select:
 
-\ans=
-  You have selected: `Page(s)'
+\ans=x
+  You have selected: `Page' omitted
 
 <<ABBREVIATE WORD `EDITORS':
 (*) `Editor(s)' (no abbreviation)
@@ -841,8 +796,8 @@ ies
 (n) Numerical editions as 1st, 2nd, 3rd, etc
   Select:
 
-\ans=
-  You have selected: Editions as in database
+\ans=n
+  You have selected: Numerical editions
 
 >>EDITION NUMBERS:
 
@@ -888,8 +843,8 @@ Reading external language file \cfile=
 (x) No `and' as `Tom, Dick, Harry'
   Select:
 
-\ans=
-  You have selected: With `and'
+\ans=x
+  You have selected: No `and'
 
 >>NO `AND' IN REFERENCE LIST:
 
@@ -964,8 +919,8 @@ rl
 (u) Underlining in place of italics, best with ulem package
   Select:
 
-\ans=
-  You have selected: Use emphasis
+\ans=i
+  You have selected: Use true italics
 
 >>EMPHASIS: (affects all so-called italics)
 
@@ -981,11 +936,11 @@ rl
 )
 
 Finished!!
-Batch job written to file `neup.dbj'
+Batch job written to file `nsf.dbj'
 Shall I now run this batch job? (NO)
 
 \yn=y
-(./neup.dbj (/usr/share/texlive/texmf-dist/tex/latex/base/docstrip.tex
+(./nsf.dbj (/usr/share/texlive/texmf-dist/tex/latex/base/docstrip.tex
 \blockLevel=\count81
 \emptyLines=\count82
 \processedLines=\count83
@@ -1032,27 +987,31 @@ English documentation    <2017/03/13>
 
 )
 
-Generating file(s) ./neup.bst 
-\openout0 = `./neup.bst'.
+Generating file(s) ./nsf.bst 
+\openout0 = `./nsf.bst'.
 
 
-Processing file merlin.mbs (seq-no,nm-revf,jnrlst,nmlm,x1,m1,mcite,mct-1,mct-x2
-,dt-beg,yrp-per,jttl-rm,thtit-a,volp-com,jpg-1,pp-last,num-xser,ser-vol,jnm-x,b
-tit-rm,bt-rm,bkpg-x,add-pub,pre-pub,isbn,issn,doi,in-col,ed,xedn,url,url-nl,nfs
-s,) -> neup.bst
+Processing file merlin.mbs (head,annote,pres,seq-no,nm-revf,dt-beg,dtrev,jttl-r
+m,volp-com,jpg-1,pp-last,num-xser,ser-vol,jnm-x,btit-rm,bt-rm,bkpg-x,isbn,issn,
+doi,in-col,ppx,ed,ord,xand,url,url-nl,em-it,nfss,,{}) -> nsf.bst
 Lines  processed: 9446
 Comments removed: 3867
 Comments  passed: 1
 Codelines passed: 3732
 
- ) ) 
+! Cannot find file physjour.mbs.
+\readsource ...ot find file \uptospace #1 \qStop }
+                                                  \else \processedLines \z@ ...
+l.669 \generate{\file{nsf.bst}{\MBopts}}
+                                        ^^M
+? X
+ 
 Here is how much of TeX's memory you used:
- 827 strings out of 494918
- 6830 string characters out of 6180725
- 62733 words of memory out of 5000000
- 4231 multiletter control sequences out of 15000+600000
+ 841 strings out of 494918
+ 7021 string characters out of 6180725
+ 65098 words of memory out of 5000000
+ 4243 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 15i,0n,15p,313b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
-
+ 16i,0n,19p,312b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.

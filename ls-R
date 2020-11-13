@@ -10,11 +10,17 @@ bst
 
 ./bibtex/bst:
 abbrvnat.bst
+geojour.mbs
 IEEEtran.bst
 ieeetr.bst
 makebst.log
 neup.bst
 neup.dbj
+nsf.bst
+nsf.dbj
+nsf.log
+photjour.mbs
+physjour.mbs
 plainnat.bst
 standard.bst
 unsrtnat.bst
