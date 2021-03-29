@@ -10,6 +10,7 @@ bst
 
 ./bibtex/bst:
 abbrvnat.bst
+ans.bst
 geojour.mbs
 IEEEtran.bst
 ieeetr.bst
@@ -30,6 +31,7 @@ unsrtnat.bst
 latex
 
 ./tex/latex:
+anstrans
 arydshin
 bigfoot
 bold-extra
@@ -37,6 +39,7 @@ boldline
 changepage
 datetime
 datetime2
+enumitem
 etaremune
 fmtcount
 footnotehyper
@@ -55,6 +58,9 @@ tocloft
 tracklang
 wrapfig
 xifthen
+
+./tex/latex/anstrans:
+anstrans.cls
 
 ./tex/latex/arydshin:
 arydshln.dtx
@@ -174,6 +180,9 @@ datetime2-sample-styles.pdf
 datetime2-sample-styles.tex
 datetime2-sample-xe.pdf
 datetime2-sample-xe.tex
+
+./tex/latex/enumitem:
+enumitem.sty
 
 ./tex/latex/etaremune:
 etaremune.sty
