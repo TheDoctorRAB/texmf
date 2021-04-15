@@ -10,6 +10,7 @@ bst
 
 ./bibtex/bst:
 abbrvnat.bst
+ans.bak
 ans.bst
 geojour.mbs
 IEEEtran.bst
