@@ -86,11 +86,10 @@
 }
 
 \renewcommand\subsubsection{\@startsection
-	{subsubsection}{1}{0pt}%		%name, level, indent
-	%{subsubsection}{1}{-\parindent}%		%name, level, indent
+	{subsubsection}{1}{-\parindent}%		%name, level, indent
 	{-.75\baselineskip}%		%beforeskip
 	{.5\baselineskip}%		%afterskip
-	{\reset@font\itshape}%
+	{\reset@font\emph}%
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% APPENDIX %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
