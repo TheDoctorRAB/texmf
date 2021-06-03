@@ -61,6 +61,7 @@ wrapfig
 xifthen
 
 ./tex/latex/anstrans:
+anstrans.bak
 anstrans.cls
 
 ./tex/latex/arydshin:
