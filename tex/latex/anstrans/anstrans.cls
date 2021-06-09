@@ -102,6 +102,8 @@
 	{\reset@font\bf\itshape}%
 }
 
+\renewcommand{\quote}{\list{}{\rightmargin=\leftmargin\topsep=3pt}\item\relax}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% APPENDIX %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % appendix needs equations labeled A.1 etc., but shouldn't look like 
 %   A   MY FIRST APPENDIX
