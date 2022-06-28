@@ -33,6 +33,8 @@
 
 % ams math must be loaded before txfonts
 \usepackage{amsmath}
+\usepackage[hidelinks]{hyperref}
+
 % Use Times for math font and text font.
 \RequirePackage[T1]{fontenc}
 \RequirePackage{txfonts}
