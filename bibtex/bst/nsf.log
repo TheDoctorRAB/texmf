@@ -1,4 +1,4 @@
-This is TeX, Version 3.14159265 (TeX Live 2018) (preloaded format=tex 2020.4.22)  13 NOV 2020 12:16
+This is TeX, Version 3.14159265 (TeX Live 2020/Debian) (preloaded format=tex 2021.8.7)  17 FEB 2022 15:18
 **nsf.dbj
 (./nsf.dbj (/usr/share/texlive/texmf-dist/tex/latex/base/docstrip.tex
 \blockLevel=\count26
@@ -35,8 +35,8 @@ This is TeX, Version 3.14159265 (TeX Live 2018) (preloaded format=tex 2020.4.22)
 \@maxfiles=\count54
 \@maxoutfiles=\count55
 
-Utility: `docstrip' 2.5e <2014/09/29>
-English documentation    <2017/03/13>
+Utility: `docstrip' v2.6a <2020-07-07>
+English documentation    <2020-07-11>
 
 **********************************************************
 * This program converts documented macro-files into fast *
@@ -50,48 +50,46 @@ English documentation    <2017/03/13>
 )
 
 Generating file(s) nsf.bst 
-\openout0 = `nsf.bst'.
 
-
-Processing file merlin.mbs (head,annote,pres,seq-no,nm-revf,dt-beg,dtrev,jttl-r
-m,volp-com,jpg-1,pp-last,num-xser,ser-vol,jnm-x,btit-rm,bt-rm,bkpg-x,isbn,issn,
-doi,in-col,ppx,ed,ord,xand,url,url-nl,em-it,nfss,,{}) -> nsf.bst
+Processing file merlin.mbs (head,ay,annote,pres,seq-no,nm-revf,dt-beg,dtrev,jtt
+l-rm,volp-com,jpg-1,pp-last,num-xser,ser-vol,jnm-x,btit-rm,bt-rm,bkpg-x,isbn,is
+sn,doi,in-col,ppx,ed,ord,xand,url,url-nl,em-it,nfss,,{}) -> nsf.bst
 Lines  processed: 9446
 Comments removed: 3867
 Comments  passed: 1
 Codelines passed: 3732
 
 
-Processing file physjour.mbs (annote,pres,seq-no,nm-revf,dt-beg,dtrev,jttl-rm,v
-olp-com,jpg-1,pp-last,num-xser,ser-vol,jnm-x,btit-rm,bt-rm,bkpg-x,isbn,issn,doi
-,in-col,ppx,ed,ord,xand,url,url-nl,em-it,nfss,,{}) -> nsf.bst
+Processing file physjour.mbs (ay,annote,pres,seq-no,nm-revf,dt-beg,dtrev,jttl-r
+m,volp-com,jpg-1,pp-last,num-xser,ser-vol,jnm-x,btit-rm,bt-rm,bkpg-x,isbn,issn,
+doi,in-col,ppx,ed,ord,xand,url,url-nl,em-it,nfss,,{}) -> nsf.bst
 Lines  processed: 398
 Comments removed: 160
 Comments  passed: 0
 Codelines passed: 202
 
 
-Processing file geojour.mbs (annote,pres,seq-no,nm-revf,dt-beg,dtrev,jttl-rm,vo
-lp-com,jpg-1,pp-last,num-xser,ser-vol,jnm-x,btit-rm,bt-rm,bkpg-x,isbn,issn,doi,
-in-col,ppx,ed,ord,xand,url,url-nl,em-it,nfss,,{}) -> nsf.bst
+Processing file geojour.mbs (ay,annote,pres,seq-no,nm-revf,dt-beg,dtrev,jttl-rm
+,volp-com,jpg-1,pp-last,num-xser,ser-vol,jnm-x,btit-rm,bt-rm,bkpg-x,isbn,issn,d
+oi,in-col,ppx,ed,ord,xand,url,url-nl,em-it,nfss,,{}) -> nsf.bst
 Lines  processed: 404
 Comments removed: 143
 Comments  passed: 0
 Codelines passed: 249
 
 
-Processing file photjour.mbs (annote,pres,seq-no,nm-revf,dt-beg,dtrev,jttl-rm,v
-olp-com,jpg-1,pp-last,num-xser,ser-vol,jnm-x,btit-rm,bt-rm,bkpg-x,isbn,issn,doi
-,in-col,ppx,ed,ord,xand,url,url-nl,em-it,nfss,,{}) -> nsf.bst
+Processing file photjour.mbs (ay,annote,pres,seq-no,nm-revf,dt-beg,dtrev,jttl-r
+m,volp-com,jpg-1,pp-last,num-xser,ser-vol,jnm-x,btit-rm,bt-rm,bkpg-x,isbn,issn,
+doi,in-col,ppx,ed,ord,xand,url,url-nl,em-it,nfss,,{}) -> nsf.bst
 Lines  processed: 227
 Comments removed: 128
 Comments  passed: 0
 Codelines passed: 87
 
 
-Processing file merlin.mbs (tail,annote,pres,seq-no,nm-revf,dt-beg,dtrev,jttl-r
-m,volp-com,jpg-1,pp-last,num-xser,ser-vol,jnm-x,btit-rm,bt-rm,bkpg-x,isbn,issn,
-doi,in-col,ppx,ed,ord,xand,url,url-nl,em-it,nfss,,{}) -> nsf.bst
+Processing file merlin.mbs (tail,ay,annote,pres,seq-no,nm-revf,dt-beg,dtrev,jtt
+l-rm,volp-com,jpg-1,pp-last,num-xser,ser-vol,jnm-x,btit-rm,bt-rm,bkpg-x,isbn,is
+sn,doi,in-col,ppx,ed,ord,xand,url,url-nl,em-it,nfss,,{}) -> nsf.bst
 Lines  processed: 9446
 Comments removed: 3867
 Comments  passed: 1
