@@ -52,6 +52,7 @@ ifmtarg
 lineno
 makebst
 makecell
+mypythonhighlight
 ncctools
 physics
 tablefootnote
@@ -250,6 +251,9 @@ merlin.mbs
 
 ./tex/latex/makecell:
 makecell.sty
+
+./tex/latex/mypythonhighlight:
+mypythonhighlight.sty
 
 ./tex/latex/ncctools:
 afterpackage.dtx
