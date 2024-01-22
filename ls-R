@@ -58,6 +58,7 @@ makecell
 mypythonhighlight
 ncctools
 physics
+slither
 tablefootnote
 tabto
 tabulary
@@ -317,6 +318,9 @@ watermark.sty
 
 ./tex/latex/physics:
 physics.sty
+
+./tex/latex/slither:
+slither.sty
 
 ./tex/latex/tablefootnote:
 tablefootnote.drv
