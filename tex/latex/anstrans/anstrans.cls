@@ -96,7 +96,7 @@
 \renewcommand\subsection{\@startsection
 	{subsection}{1}{0pt}%		%name, level, indent
 	{-\baselineskip}%		%beforeskip
-	{.75\baselineskip}%		%afterskip
+	{.71\baselineskip}%		%afterskip
 	{\reset@font\bf}%
 }
 
