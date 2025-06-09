@@ -38,7 +38,7 @@
 \usepackage{hyperref}
 \hypersetup{colorlinks,linkcolor=black,citecolor=black,urlcolor=blue} 
 \usepackage[colorinlistoftodos,prependcaption,textsize=tiny,textwidth=15mm]{todonotes} %makes colored boxes for commenting
-\usepackage[font=itshape]{quoting}
+\usepackage[font=itshape,vskip=1pt]{quoting}
 
 %%%%% colors
 %http://latexcolor.com/
