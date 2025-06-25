@@ -118,12 +118,14 @@
     }
     \date{
         \vfill
+        \begin{flushright}
         \renewcommand{\arraystretch}{0.8}
         \begin{tabular}[t]{rl}
         Number of pages:& \pageref*{LastPage} \\
         Number of tables:& \totaltables \\
         Number of figures:& \totalfigures
         \end{tabular}
+        \end{flushright}
     }
     \clearpage\maketitle
     \thispagestyle{empty}
@@ -137,4 +139,4 @@
     \edef\@keywords{\@keywords\if\@keywords\@empty\else,\ \fi#1}
 }
 \newcommand\showKeywords{\par\vspace{1em}\noindent\textbf{Keywords} --- \@keywords}
-\renewenvironment{abstract}{\pagebreak~\vfill\begin{center}\textbf{Abstract}\end{center}}{\showKeywords\vfill\pagebreak}
+\renewenvironment{abstract}{\pagebreak~\vfill\begin{center}\textbf{Abstract}\end{center}\thispagestyle{empty}}{\showKeywords\vfill\pagebreak}
