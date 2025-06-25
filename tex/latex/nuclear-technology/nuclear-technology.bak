@@ -17,14 +17,12 @@
 \RequirePackage{amsmath}                                                        %enable `align' equation types
 \RequirePackage{graphicx}                                                       %enable figures
 \RequirePackage{multirow}                                                       %enable `multirow' capability in tables
-\RequirePackage[T1]{fontenc}
 
 \RequirePackage{caption}                                                        %enables subfigures
 \RequirePackage[labelformat=simple]{subcaption}                                 %enables subfigure captions 
     \captionsetup[table]{labelsep=newline,name=TABLE}                           %sets table caption formatting options to meet NSE requirements
     \captionsetup[figure]{name=Fig.,labelsep=period}                            %sets figure caption options to meet NSE requirements
-\RequirePackage{hyperref}                                                       %reference and citation hyperlinking linking
-\hypersetup{colorlinks,linkcolor=black,citecolor=black,urlcolor=blue,pdfencoding=auto} 
+\RequirePackage[colorlinks=true, allcolors=blue, pdfencoding=auto]{hyperref}    %reference and citation hyperlinking linking
 \RequirePackage[]{footmisc}                                                     %enables double spaced footnotes
     \renewcommand{\footnotelayout}{\doublespacing}                              %double spacing of footnotes
 \RequirePackage{xstring}
@@ -47,8 +45,8 @@
 
 \renewcommand*\thesubfigure{(\alph{subfigure})}                             %enables proper labeling of subfigures
 
-%\DeclareMathOperator{\diff}{d}                                              %can define operators to use in math mode, example in Eq. 2
-%\DeclareMathOperator{\erf}{erf}
+\DeclareMathOperator{\diff}{d}                                              %can define operators to use in math mode, example in Eq. 2
+\DeclareMathOperator{\erf}{erf}
 
 \doublespacing                                                              %set double space
 \setlength{\parindent}{25pt}                                                %set size of indentation (15pt is default)
