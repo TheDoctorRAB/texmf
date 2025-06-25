@@ -58,6 +58,7 @@ makebst
 makecell
 mypythonhighlight
 ncctools
+nuclear-technology
 physics
 slither
 tablefootnote
@@ -316,6 +317,9 @@ topsection.dtx
 topsection.sty
 watermark.dtx
 watermark.sty
+
+./tex/latex/nuclear-technology:
+nuclear-technology.cls
 
 ./tex/latex/physics:
 physics.sty

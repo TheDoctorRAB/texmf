@@ -14,7 +14,7 @@
 \RequirePackage[explicit]{titlesec}                                             %package needed for next lines
 \RequirePackage{lastpage}                                                       %package which returns number of last page (same as number of pages)
 \RequirePackage[figure,table]{totalcount}                                       %package which counts the number of tables and/or figures
-\RequirePackage{amsmath}                                                        %enable `align' equation types
+\RequirePackage{amsmath,nicefrac}                                                        %enable `align' equation types
 \RequirePackage{graphicx}                                                       %enable figures
 \RequirePackage{multirow}                                                       %enable `multirow' capability in tables
 
