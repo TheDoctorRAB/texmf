@@ -12,6 +12,7 @@
 \RequirePackage{setspace}                                                       %option 2 for making text double-spaced
 \RequirePackage{indentfirst}                                                    %makes first paragraph of section indented (non-first are by default)
 \RequirePackage[explicit]{titlesec}                                             %package needed for next lines
+\RequirePackage{titletoc}                                                       %package needed for next lines
 \RequirePackage{lastpage}                                                       %package which returns number of last page (same as number of pages)
 \RequirePackage[figure,table]{totalcount}                                       %package which counts the number of tables and/or figures
 \RequirePackage{amsmath}                                                        %enable `align' equation types
@@ -33,6 +34,7 @@
 
 
 
+\renewcommand\thepart{\Alph{part}}                                          %set capital Roman numeral section headings
 \renewcommand\thesection{\Roman{section}}                                   %set capital Roman numeral section headings
 \renewcommand\thesubsection{\thesection.\Alph{subsection}}                  %set capital Aramaic letters subsection headings
 \renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}       %set capital Arabic numbers subsubsection headings
