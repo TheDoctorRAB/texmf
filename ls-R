@@ -5,7 +5,6 @@ bibtex
 ls-R
 tex
 tlpkg
-web2c
 
 ./bibtex:
 bst
@@ -363,8 +362,3 @@ xifthen.sty
 
 ./tlpkg:
 texlive.tlpdb
-tlpobj
-
-./tlpkg/tlpobj:
-
-./web2c:
